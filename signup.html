@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.discordapp.com/attachments/1072321098206674954/1095046532509745213/logo.png"
+      type="image/x-icon"
+    />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo">
+            <a href="index.html"
+              ><img
+                src="https://cdn.discordapp.com/attachments/1072321098206674954/1095046532509745213/logo.png"
+                alt="logo"
+            /></a>
+          </li>
+          <input type="checkbox" id="check"/>
+          <span class="menu">
+            <li><a href="index.html" class="nav-shadow nav-color">Home</a></li>
+            <li><a href="#" class="nav-shadow nav-color">About</a></li>
+            <li><a href="#" class="nav-shadow nav-color">Contact</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+      </nav>
+    </header>
+    <div class="login-container">
+      <div class="loginbox-container">
+        <h2 class="box-shadow">Sign up</h2>
+        <form action="#">
+          <div class="login-box">
+            <input type="text" required placeholder="Username">
+            <input type="email" required placeholder="Email"/>
+            <input type="password" required placeholder="Password"/>
+          </div>
+        </form>
+        <button class="login-button nav-shadow">Sign up</button>
+        <h4 class="mini text-shadow">
+          Already have an account?
+          <span
+            ><a href="../index.html" class="diff-color text-shadow"
+              >Sign in</a
+            ></span
+          >
+        </h4>
+      </div>
+    </div>
+  </body>
+</html>
